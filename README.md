@@ -7,7 +7,7 @@ Then add a '.env' file in the root directory of this project. And fill the follo
 ```.env
 NEXT_PUBLIC_REST_API_ENDPOINT=YOUR_API_ENDPOINT e.g. 'yourdomain.com/api'
 NEXT_PUBLIC_NEXTAUTH_URL=YOUR_NEXTAUTH_URL (in development 'http://localhost:3000' or in production this should be 'yourdomain.com' )
-For Social Authentication
+#For Social Authentication
 GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
 GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
 SECRET=YOUR_SECRET_KEY 
