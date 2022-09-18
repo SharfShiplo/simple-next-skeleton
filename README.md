@@ -2,8 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, Clone this repo, cd into correct directory then command 'yarn' or 'npm install' to install all dependencies 
-Then add a '.env' file in the root directory of this project. And fill the following environment variables with proper value:
+First, Clone this repo, cd into correct directory then command:
+```bash
+'yarn' or 'npm install' 
+```
+to install all dependencies then add a '.env' file in the root directory of this project.
+And fill the following environment variables with proper value:
+
 ```.env
 NEXT_PUBLIC_REST_API_ENDPOINT=YOUR_API_ENDPOINT e.g. 'yourdomain.com/api'
 NEXT_PUBLIC_NEXTAUTH_URL=YOUR_NEXTAUTH_URL (in development 'http://localhost:3000' or in production this should be 'yourdomain.com' )
@@ -24,9 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be added in `pages/api/hello.ts`.
 
 ## Learn More
 
