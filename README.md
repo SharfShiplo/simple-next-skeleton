@@ -12,12 +12,13 @@ to install all dependencies then add a '.env' file in the root directory of this
 And fill the following environment variables with proper value:
 
 ```.env
-NEXT_PUBLIC_REST_API_ENDPOINT=YOUR_API_ENDPOINT e.g. 'yourdomain.com/api'
-NEXT_PUBLIC_NEXTAUTH_URL=YOUR_NEXTAUTH_URL (in development 'http://localhost:3000' or in production this should be 'yourdomain.com' )
+NEXT_PUBLIC_REST_API_ENDPOINT='http://localhost/'#For development 'http://localhost', For production this should be your Api end-point
+NEXT_PUBLIC_NEXTAUTH_URL='http://localhost:3000'#For development 'http://localhost:3000', For production this should be 'yourdomain.com'
+NEXT_PUBLIC_SITE_URL='http://localhost:3000'#For development 'http://localhost:3000', For production this should be 'yourdomain.com'
 #For Social Authentication
 GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
 GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
-SECRET=YOUR_SECRET_KEY 
+SECRET=YOUR_SECRET_KEY
 ```
 Then run the development server:
 
